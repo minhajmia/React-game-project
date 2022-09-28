@@ -1,0 +1,8 @@
+.exercise-time, .break-time{
+    background-color: rgb(185, 184, 184);
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    display:flex;
+    justify-content: space-between;
+}

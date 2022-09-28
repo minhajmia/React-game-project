@@ -1,0 +1,26 @@
+.profile-image img{
+    width: 80px;
+    height:80px;
+    border:2px solid #ccc;
+    border-radius:50%;
+}
+.profile-name{
+    text-align: start;
+    margin-left: 10px;
+}
+.name{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: -28px;
+    
+}
+.location{
+    font-weight: 400;
+    font-size: 16px;
+}
+.person-calculation{
+    background-color: rgb(185, 184, 184);
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 5px 15px;
+}

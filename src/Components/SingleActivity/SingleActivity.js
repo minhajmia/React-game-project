@@ -1,7 +1,7 @@
 import React from "react";
 import "./SingleActivity.css";
 
-const SingleActivity = ({ activity }) => {
+const SingleActivity = ({ activity, handleSecondCount }) => {
   const { name, picture, time } = activity;
   return (
     <div>
@@ -13,7 +13,12 @@ const SingleActivity = ({ activity }) => {
           <h2 className="card-title">{name}</h2>
           <p>Time required : {time}</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Add to list</button>
+            <button
+              onClick={() => handleSecondCount(activity)}
+              className="btn btn-accent"
+            >
+              Add to list
+            </button>
           </div>
         </div>
       </div>

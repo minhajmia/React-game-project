@@ -1,0 +1,16 @@
+.break-btn {
+        background-color: rgb(185, 184, 184);
+        margin-top: 30px;
+        border-radius: 5px;
+        padding: 15px 15px;
+}
+.break-btn{
+    display: flex;
+    justify-content:space-between;
+}
+.break-btn button {
+    padding: 5px 5px;
+    border-radius:50%;
+    background-color: rgb(113, 108, 108);
+    color: #fff;
+}
