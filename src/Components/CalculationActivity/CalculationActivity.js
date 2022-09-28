@@ -6,7 +6,7 @@ import "./CalculationActivity.css";
 
 const CalculationActivity = ({ cart }) => {
   const [breakTime, setBreakTime] = useState(0);
-  //
+  // break time handler
   const handleBreakTime = (value) => {
     setBreakTime(value);
   };
