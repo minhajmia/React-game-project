@@ -4,7 +4,7 @@ import "./Break.css";
 const Break = ({ handleBreakTime }) => {
   return (
     <div className="Break-container mx-5 mt-5">
-      <h2 className="text-left capitalize font-semibold">Add a break</h2>
+      <h2 className="text-left capitalize font-semibold">Add A Break</h2>
       <div className="break-btn">
         <div>
           <button onClick={() => handleBreakTime(10)}>10</button>
