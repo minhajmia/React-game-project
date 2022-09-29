@@ -11,7 +11,7 @@ const SingleActivity = ({ activity, handleSecondCount }) => {
         </figure>
         <div className="card-body">
           <h2 className="card-title">{name}</h2>
-          <p>Time required : {time}</p>
+          <p>Time required : {time}s</p>
           <div className="card-actions justify-end">
             <button
               onClick={() => handleSecondCount(activity)}

@@ -7,19 +7,19 @@ const Break = ({ handleBreakTime }) => {
       <h2 className="text-left capitalize font-semibold">Add A Break</h2>
       <div className="break-btn">
         <div>
-          <button onClick={() => handleBreakTime(10)}>10</button>
+          <button onClick={() => handleBreakTime(10)}>10s</button>
         </div>
         <div>
-          <button onClick={() => handleBreakTime(20)}>20</button>
+          <button onClick={() => handleBreakTime(20)}>20s</button>
         </div>
         <div>
-          <button onClick={() => handleBreakTime(30)}>30</button>
+          <button onClick={() => handleBreakTime(30)}>30s</button>
         </div>
         <div>
-          <button onClick={() => handleBreakTime(40)}>40</button>
+          <button onClick={() => handleBreakTime(40)}>40s</button>
         </div>
         <div>
-          <button onClick={() => handleBreakTime(50)}>50</button>
+          <button onClick={() => handleBreakTime(50)}>50s</button>
         </div>
       </div>
     </div>

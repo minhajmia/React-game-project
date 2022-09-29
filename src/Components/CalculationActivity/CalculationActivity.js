@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { storValue, addToDatabase } from "../../utilities/fakedb";
 import Break from "../Break/Break";
 import ExerciseDetails from "../ExerciseDetails/ExerciseDetails";
 import PersonalPortfolio from "../PersonalPortfolio/PersonalPortfolio";
@@ -8,8 +9,11 @@ const CalculationActivity = ({ cart }) => {
   const [breakTime, setBreakTime] = useState(0);
   // break time handler
   const handleBreakTime = (value) => {
-    setBreakTime(value);
+    const newValue = [value];
+    setBreakTime(newValue);
+    addToDatabase(value);
   };
+
   return (
     <div className="calculationActivity-container">
       <PersonalPortfolio />
