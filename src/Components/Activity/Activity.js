@@ -23,7 +23,7 @@ const Activity = () => {
     <div>
       <Header />
       <div className="activity-container grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1  gap-5">
-        <div className="activity-container grid col-span-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5  ">
+        <div className="activity-container grid lg:col-span-3 md:col-span-2 sm:col-span-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5  ">
           {activities.map((activity) => (
             <SingleActivity
               activity={activity}
@@ -31,17 +31,14 @@ const Activity = () => {
               handleSecondCount={handleSecondCount}
             />
           ))}
-          <div></div>
           <div className="mt-10">
-            <hr />
-            <h2 className="text-center text-3xl font-bold">
+            <h2 className="text-center text-2xl font-bold">
               All Question Answer
             </h2>
             <QuestionAnswer />
           </div>
-          <div></div>
         </div>
-        <div className="activity-calculation-container lg:m-0 md:mx-auto sm:mx-auto">
+        <div className="activity-calculation-container lg:col-span-1 md:col-span-2 sm:col-span-1 ">
           <CalculationActivity cart={cart} />
         </div>
       </div>

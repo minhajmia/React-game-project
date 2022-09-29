@@ -11,7 +11,7 @@ if (typeof window !== "undefined") {
 const ExerciseDetails = ({ cart, breakTime }) => {
   // Toast --
   function notify() {
-    toast.dark("Thanks Guys");
+    toast.dark("Congratulations");
   }
   // calculate seconds
   let total = 0;
