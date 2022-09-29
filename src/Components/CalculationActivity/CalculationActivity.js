@@ -13,7 +13,11 @@ const CalculationActivity = ({ cart }) => {
     setBreakTime(newValue);
     addToDatabase(value);
   };
-
+  useEffect(() => {
+    const store = storValue;
+    const saveValue = store;
+    setBreakTime(saveValue);
+  }, []);
   return (
     <div className="calculationActivity-container">
       <PersonalPortfolio />
